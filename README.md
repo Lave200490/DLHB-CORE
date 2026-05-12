@@ -39,7 +39,7 @@ DLHB-CORE/
 └── demo_risk_prediction.py     # Script de demostración
 ```
 
-## 🚀 Inicio Rápido
+##  Inicio Rápido
 
 ### Backend (API FastAPI)
 
@@ -98,7 +98,7 @@ La aplicación estará disponible en: `http://localhost:3000`
 
 - **`POST /riesgo/evaluar`** - Evaluar riesgo de mora de un préstamo propuesto
 
-## 🗺️ Rutas del Frontend
+##  Rutas del Frontend
 
 | Ruta | Descripción | Estado |
 |------|-------------|--------|
@@ -147,7 +147,7 @@ curl -X POST "http://localhost:8000/riesgo/evaluar" \
   "probability": 0.3847,
   "risk_level": "MEDIO",
   "risk_score": 38,
-  "recommendation": "⚠️ Préstamo con riesgo moderado. Requiere supervisión.",
+  "recommendation": " Préstamo con riesgo moderado. Requiere supervisión.",
   "details": {...}
 }
 ```
@@ -162,7 +162,7 @@ python demo_risk_prediction.py
 python train_default_risk_model.py
 ```
 
-## 💾 Base de Datos
+##  Base de Datos
 
 SQLite para desarrollo (`dlhb_core.db`)
 
@@ -185,7 +185,7 @@ SQLite para desarrollo (`dlhb_core.db`)
 - Cliente 1 → N Préstamos
 - Préstamo 1 → N Pagos
 
-## 🎨 Frontend
+##  Frontend
 
 ### Componentes
 
@@ -204,7 +204,7 @@ SQLite para desarrollo (`dlhb_core.db`)
 - Diseño responsivo
 - Paleta corporativa (azul marino + blanco)
 
-## 📊 Lógica Transaccional del Pago
+## Lógica Transaccional del Pago
 
 El endpoint `POST /pagos/registrar` implementa:
 
@@ -226,7 +226,7 @@ El endpoint `POST /pagos/registrar` implementa:
    - rollback automático en errores
    - flush para validar restricciones
 
-## 🔧 Tecnologías
+##  Tecnologías
 
 ### Backend
 - **FastAPI** 0.113.0 - Framework REST
@@ -293,7 +293,7 @@ Respuesta (cálculo automático):
 }
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Ver predicciones del modelo
@@ -306,12 +306,12 @@ python
 >>> print(result)
 ```
 
-## 📚 Documentación Adicional
+##  Documentación Adicional
 
 - [Módulo ML](app/ml/README.md) - Guía completa de Inteligencia Financiera
 - [Frontend README](frontend/README.md) - Documentación del dashboard React
 
-## 🎯 Próximos Pasos
+##  Próximos Pasos
 
 - [ ] Integración real de API Frontend con Backend
 - [ ] Completar módulo de Clientes (crear, editar, eliminar)
@@ -328,14 +328,14 @@ python
 - [ ] Formularios con validación Zod
 - [ ] Modal de confirmación para acciones críticas
 
-## 📝 Notas
+##  Notas
 
 - La base de datos SQLite se crea automáticamente en `dlhb_core.db`
 - El modelo ML se guarda en `app/ml/models/default_risk_model.pkl`
 - Todos los códigos incluyen type hints y docstrings
 - El proyecto sigue PEP8 y buenas prácticas
 
-## ✅ Checklist de Inicialización
+##  Checklist de Inicialización
 
 - [ ] `pip install -r requirements.txt`
 - [ ] `python train_default_risk_model.py`
@@ -347,4 +347,4 @@ python
 
 ---
 
-**Desarrollado como Arquitecto de Software Senior** ✅
+
