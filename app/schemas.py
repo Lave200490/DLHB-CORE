@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from datetime import date
-from typing import List
+from typing import List, Optional
 
 from pydantic import BaseModel, Field, PositiveFloat, PositiveInt
 
@@ -29,8 +29,7 @@ class PaymentRegister(BaseModel):
 class PaymentRead(PaymentBase):
     id: int
 
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 
 class LoanBase(BaseModel):
@@ -49,12 +48,19 @@ class LoanCreate(LoanBase):
     pass
 
 
+class LoanUpdate(BaseModel):
+    """Actualización parcial de préstamo (solo campos editables)."""
+
+    status: Optional[str] = None
+    outstanding_balance: Optional[float] = Field(None, ge=0.0)
+    due_date: Optional[date] = None
+
+
 class LoanRead(LoanBase):
     id: int
     payments: List[PaymentRead] = []
 
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 
 class ClientBase(BaseModel):
@@ -66,12 +72,18 @@ class ClientCreate(ClientBase):
     pass
 
 
+class ClientUpdate(BaseModel):
+    """Actualización parcial de cliente."""
+
+    name: Optional[str] = Field(None, min_length=1)
+    phone: Optional[str] = Field(None, min_length=5)
+
+
 class ClientRead(ClientBase):
     id: int
     loans: List[LoanRead] = []
 
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 
 class RiskAssessmentRequest(BaseModel):

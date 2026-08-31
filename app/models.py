@@ -1,6 +1,7 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from datetime import date
+from enum import Enum as PyEnum
 from typing import TYPE_CHECKING
 
 from sqlalchemy import Boolean, Column, Date, Enum, Float, ForeignKey, Integer, String
@@ -21,7 +22,7 @@ class Client(Base):
     loans = relationship("Loan", back_populates="client", cascade="all, delete-orphan")
 
 
-class LoanStatus(str, Enum):
+class LoanStatus(str, PyEnum):
     ACTIVO = "ACTIVO"
     INACTIVO = "INACTIVO"
 
