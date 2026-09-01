@@ -1,0 +1,580 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Crear `migrate_db.py` en la raíz del proyecto": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283342835
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283378669
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283582586
+      }
+    ],
+    "1.2 Verificar idempotencia del script": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283344257
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283588468
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283696411
+      }
+    ],
+    "2.1 Añadir enum `InterestPeriodUnit` y actualizar `LoanStatus`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283344715
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283589331
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283697287
+      }
+    ],
+    "2.2 Modificar el modelo `Loan`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283344981
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283702129
+      }
+    ],
+    "2.3 Crear modelo `InterestRecord`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283345235
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283702686
+      }
+    ],
+    "2.4 Crear modelo `MoraRecord`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283345727
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283703368
+      }
+    ],
+    "2.5 Modificar el modelo `Payment`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283346076
+      },
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283704274
+      }
+    ],
+    "3.1 Crear `app/services/__init__.py` vacío": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283346494
+      }
+    ],
+    "4.1 Crear `app/services/financial_engine.py` e implementar dataclasses de soporte": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283347173
+      }
+    ],
+    "4.2 Implementar `InterestCalculator.convert_rate_to_period`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283347840
+      }
+    ],
+    "4.3 Implementar `InterestCalculator.calculate_interest`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283348036
+      }
+    ],
+    "4.4 Implementar `InterestCalculator.calculate_interes_pendiente`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283348524
+      }
+    ],
+    "5.1 Implementar `MoraService.calculate_mora_vigente`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283348733
+      }
+    ],
+    "5.2 Implementar `MoraService.register_mora`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283348909
+      }
+    ],
+    "5.3 Implementar `MoraService.get_mora_records_fifo`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283349228
+      }
+    ],
+    "6.1 Implementar `PaymentEngine.apply_payment` — distribución sin mora": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283350034
+      }
+    ],
+    "6.2 Implementar `PaymentEngine.apply_payment` — distribución con mora y hot-transition": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283350508
+      }
+    ],
+    "6.3 Implementar validaciones y condición de cancelación en `apply_payment`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283350729
+      }
+    ],
+    "7.1 Implementar `LoanStateService.get_loan_state`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283351012
+      }
+    ],
+    "8. Checkpoint — verificar servicios financieros": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283351455
+      }
+    ],
+    "9.1 Añadir enums Pydantic: `InterestPeriodUnitSchema`, `LoanStatusSchema`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283351696
+      }
+    ],
+    "9.2 Añadir schemas de crédito: `LoanCreate`, `LoanStateRead`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283351888
+      }
+    ],
+    "9.3 Añadir schemas de interés: `InterestRecordCreate`, `InterestRecordRead`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283352059
+      }
+    ],
+    "9.4 Añadir schemas de mora: `MoraRecordCreate`, `MoraRecordRead`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283352343
+      }
+    ],
+    "9.5 Añadir schemas de pago: `PaymentCreate`, `PaymentRead`, `PaymentResultRead`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283352568
+      }
+    ],
+    "9.6 Añadir schema `HistorialEntry`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283352776
+      }
+    ],
+    "10.1 Crear `app/routers/__init__.py` vacío": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283352943
+      }
+    ],
+    "11.1 Implementar `GET /creditos/` — listar todos los créditos con estado calculado": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283353110
+      }
+    ],
+    "11.2 Implementar `POST /creditos/` — crear crédito nuevo": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283353318
+      }
+    ],
+    "11.3 Implementar `GET /creditos/{id}` — detalle con estado financiero completo": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283353478
+      }
+    ],
+    "11.4 Implementar `GET /creditos/{id}/historial` — historial cronológico unificado": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283353658
+      }
+    ],
+    "12.1 Implementar `POST /creditos/{id}/intereses`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283353815
+      }
+    ],
+    "13.1 Implementar `POST /creditos/{id}/moras`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283353993
+      }
+    ],
+    "13.2 Implementar `GET /creditos/{id}/moras`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283354174
+      }
+    ],
+    "14.1 Implementar `POST /creditos/{id}/pagos`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283354360
+      }
+    ],
+    "14.2 Implementar `GET /creditos/{id}/pagos`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283354531
+      }
+    ],
+    "15.1 Importar y registrar routers con `app.include_router`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283354727
+      }
+    ],
+    "16. Checkpoint — verificar API": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283354921
+      }
+    ],
+    "17.1 Crear `tests/__init__.py` vacío": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283355105
+      }
+    ],
+    "17.2 Crear `tests/conftest.py` con fixtures": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283355442
+      }
+    ],
+    "18.1 Escribir `test_convert_rate_to_period`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283355893
+      }
+    ],
+    "18.2 Escribir `test_interest_by_full_period`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283356218
+      }
+    ],
+    "18.3 Escribir `test_calculate_interes_pendiente`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283356389
+      }
+    ],
+    "19.1 Escribir `test_calculate_mora_vigente`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283356656
+      }
+    ],
+    "19.2 Escribir `test_register_mora_validations`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283356889
+      }
+    ],
+    "19.3 Escribir `test_get_mora_records_fifo`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283357075
+      }
+    ],
+    "20.1 Escribir `test_payment_priority_no_mora`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283357310
+      }
+    ],
+    "20.2 Escribir `test_payment_priority_with_mora`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283357493
+      }
+    ],
+    "20.3 Escribir `test_hot_transition`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283357666
+      }
+    ],
+    "20.4 Escribir `test_cancellation_strict`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283357862
+      }
+    ],
+    "20.5 Escribir `test_payment_snapshot_consistency`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283358031
+      }
+    ],
+    "21.1 Escribir property test para Property 2 — Conservación del pago": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283358260
+      }
+    ],
+    "21.2 Escribir property test para Property 3 — Reconstructibilidad del capital pendiente": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283358460
+      }
+    ],
+    "21.3 Escribir property test para Property 4 — Reconstructibilidad del interés pendiente": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283358648
+      }
+    ],
+    "21.4 Escribir property test para Property 5 — Reconstructibilidad de la mora vigente": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283358858
+      }
+    ],
+    "22.1 Escribir `test_create_loan`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283359116
+      }
+    ],
+    "22.2 Escribir `test_register_interest`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283359386
+      }
+    ],
+    "22.3 Escribir `test_register_mora`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283359626
+      }
+    ],
+    "22.4 Escribir `test_apply_payment`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283359809
+      }
+    ],
+    "22.5 Escribir `test_get_loan_state`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283360187
+      }
+    ],
+    "22.6 Escribir `test_historial_order`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283360923
+      }
+    ],
+    "22.7 Escribir tests de error": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283361717
+      }
+    ],
+    "23. Checkpoint — verificar todos los tests": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283363041
+      }
+    ],
+    "24.1 Añadir `creditosApi`, `interesesApi`, `morasApi` al archivo existente": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283363487
+      }
+    ],
+    "25.1 Implementar componente de tabla unificada de historial": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283363941
+      }
+    ],
+    "26.1 Implementar slide-over siguiendo el patrón `ClientSlideOver.jsx`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283364553
+      }
+    ],
+    "27.1 Implementar slide-over siguiendo el patrón `ClientSlideOver.jsx`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283364953
+      }
+    ],
+    "28.1 Implementar página de detalle de crédito": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283365283
+      }
+    ],
+    "29.1 Añadir columna \"Estado Financiero\" y enlace a detalle": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283365657
+      }
+    ],
+    "30.1 Añadir ruta `/creditos/:id` → `CreditoDetallePage`": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283366238
+      }
+    ],
+    "31.1 Añadir `mcp>=1.0.0` y `httpx>=0.27.0` al archivo existente": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283366720
+      }
+    ],
+    "32.1 Implementar servidor MCP con las seis tools del diseño": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283367188
+      }
+    ],
+    "33.1 Crear archivo de configuración MCP con el contenido exacto del diseño": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283367571
+      }
+    ],
+    "34. Checkpoint final — verificar MCP": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283367999
+      }
+    ],
+    "1. Crear script de migración de base de datos": [
+      {
+        "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
+        "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
+        "timestamp": 1788283696701
+      }
+    ]
+  }
+}
