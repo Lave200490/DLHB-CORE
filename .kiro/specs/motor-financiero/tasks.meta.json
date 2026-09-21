@@ -62,6 +62,21 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283702129
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025197687
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025245751
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025309226
       }
     ],
     "2.3 Crear modelo `InterestRecord`": [
@@ -74,6 +89,21 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283702686
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025200209
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025248462
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025312107
       }
     ],
     "2.4 Crear modelo `MoraRecord`": [
@@ -86,6 +116,21 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283703368
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025201316
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025251130
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025314834
       }
     ],
     "2.5 Modificar el modelo `Payment`": [
@@ -98,6 +143,21 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283704274
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025201740
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025254470
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025317626
       }
     ],
     "3.1 Crear `app/services/__init__.py` vacío": [
@@ -105,6 +165,21 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283346494
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025202515
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025323747
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025338138
       }
     ],
     "4.1 Crear `app/services/financial_engine.py` e implementar dataclasses de soporte": [
@@ -112,6 +187,21 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283347173
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025203919
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025343965
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025467393
       }
     ],
     "4.2 Implementar `InterestCalculator.convert_rate_to_period`": [
@@ -119,6 +209,21 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283347840
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025204780
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025472938
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025934657
       }
     ],
     "4.3 Implementar `InterestCalculator.calculate_interest`": [
@@ -126,6 +231,21 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283348036
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025205515
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025475844
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025937861
       }
     ],
     "4.4 Implementar `InterestCalculator.calculate_interes_pendiente`": [
@@ -133,6 +253,16 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283348524
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025207415
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025941197
       }
     ],
     "5.1 Implementar `MoraService.calculate_mora_vigente`": [
@@ -140,6 +270,16 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283348733
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025208662
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025944216
       }
     ],
     "5.2 Implementar `MoraService.register_mora`": [
@@ -147,6 +287,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283348909
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025209903
       }
     ],
     "5.3 Implementar `MoraService.get_mora_records_fifo`": [
@@ -154,6 +299,16 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283349228
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025210556
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025947279
       }
     ],
     "6.1 Implementar `PaymentEngine.apply_payment` — distribución sin mora": [
@@ -161,6 +316,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283350034
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025211665
       }
     ],
     "6.2 Implementar `PaymentEngine.apply_payment` — distribución con mora y hot-transition": [
@@ -168,6 +328,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283350508
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025212344
       }
     ],
     "6.3 Implementar validaciones y condición de cancelación en `apply_payment`": [
@@ -175,6 +340,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283350729
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025213504
       }
     ],
     "7.1 Implementar `LoanStateService.get_loan_state`": [
@@ -182,6 +352,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283351012
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025214908
       }
     ],
     "8. Checkpoint — verificar servicios financieros": [
@@ -189,6 +364,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283351455
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025215666
       }
     ],
     "9.1 Añadir enums Pydantic: `InterestPeriodUnitSchema`, `LoanStatusSchema`": [
@@ -196,6 +376,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283351696
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025216454
       }
     ],
     "9.2 Añadir schemas de crédito: `LoanCreate`, `LoanStateRead`": [
@@ -203,6 +388,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283351888
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025217492
       }
     ],
     "9.3 Añadir schemas de interés: `InterestRecordCreate`, `InterestRecordRead`": [
@@ -210,6 +400,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283352059
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025217967
       }
     ],
     "9.4 Añadir schemas de mora: `MoraRecordCreate`, `MoraRecordRead`": [
@@ -217,6 +412,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283352343
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025218514
       }
     ],
     "9.5 Añadir schemas de pago: `PaymentCreate`, `PaymentRead`, `PaymentResultRead`": [
@@ -224,6 +424,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283352568
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025218872
       }
     ],
     "9.6 Añadir schema `HistorialEntry`": [
@@ -231,6 +436,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283352776
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025219271
       }
     ],
     "10.1 Crear `app/routers/__init__.py` vacío": [
@@ -238,6 +448,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283352943
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025219798
       }
     ],
     "11.1 Implementar `GET /creditos/` — listar todos los créditos con estado calculado": [
@@ -245,6 +460,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283353110
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025220121
       }
     ],
     "11.2 Implementar `POST /creditos/` — crear crédito nuevo": [
@@ -252,6 +472,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283353318
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025220579
       }
     ],
     "11.3 Implementar `GET /creditos/{id}` — detalle con estado financiero completo": [
@@ -259,6 +484,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283353478
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025220856
       }
     ],
     "11.4 Implementar `GET /creditos/{id}/historial` — historial cronológico unificado": [
@@ -266,6 +496,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283353658
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025221266
       }
     ],
     "12.1 Implementar `POST /creditos/{id}/intereses`": [
@@ -273,6 +508,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283353815
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025221549
       }
     ],
     "13.1 Implementar `POST /creditos/{id}/moras`": [
@@ -280,6 +520,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283353993
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025221998
       }
     ],
     "13.2 Implementar `GET /creditos/{id}/moras`": [
@@ -287,6 +532,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283354174
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025222403
       }
     ],
     "14.1 Implementar `POST /creditos/{id}/pagos`": [
@@ -294,6 +544,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283354360
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025222943
       }
     ],
     "14.2 Implementar `GET /creditos/{id}/pagos`": [
@@ -301,6 +556,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283354531
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025223480
       }
     ],
     "15.1 Importar y registrar routers con `app.include_router`": [
@@ -308,6 +568,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283354727
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025223944
       }
     ],
     "16. Checkpoint — verificar API": [
@@ -315,6 +580,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283354921
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025224461
       }
     ],
     "17.1 Crear `tests/__init__.py` vacío": [
@@ -322,6 +592,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283355105
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025224940
       }
     ],
     "17.2 Crear `tests/conftest.py` con fixtures": [
@@ -329,6 +604,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283355442
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025225338
       }
     ],
     "18.1 Escribir `test_convert_rate_to_period`": [
@@ -336,6 +616,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283355893
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025225811
       }
     ],
     "18.2 Escribir `test_interest_by_full_period`": [
@@ -343,6 +628,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283356218
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025226178
       }
     ],
     "18.3 Escribir `test_calculate_interes_pendiente`": [
@@ -350,6 +640,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283356389
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025226590
       }
     ],
     "19.1 Escribir `test_calculate_mora_vigente`": [
@@ -357,6 +652,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283356656
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025226870
       }
     ],
     "19.2 Escribir `test_register_mora_validations`": [
@@ -364,6 +664,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283356889
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025227290
       }
     ],
     "19.3 Escribir `test_get_mora_records_fifo`": [
@@ -371,6 +676,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283357075
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025227685
       }
     ],
     "20.1 Escribir `test_payment_priority_no_mora`": [
@@ -378,6 +688,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283357310
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025228174
       }
     ],
     "20.2 Escribir `test_payment_priority_with_mora`": [
@@ -385,6 +700,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283357493
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025228494
       }
     ],
     "20.3 Escribir `test_hot_transition`": [
@@ -392,6 +712,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283357666
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025228970
       }
     ],
     "20.4 Escribir `test_cancellation_strict`": [
@@ -399,6 +724,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283357862
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025229295
       }
     ],
     "20.5 Escribir `test_payment_snapshot_consistency`": [
@@ -406,6 +736,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283358031
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025229824
       }
     ],
     "21.1 Escribir property test para Property 2 — Conservación del pago": [
@@ -413,6 +748,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283358260
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025230206
       }
     ],
     "21.2 Escribir property test para Property 3 — Reconstructibilidad del capital pendiente": [
@@ -420,6 +760,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283358460
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025230529
       }
     ],
     "21.3 Escribir property test para Property 4 — Reconstructibilidad del interés pendiente": [
@@ -427,6 +772,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283358648
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025230930
       }
     ],
     "21.4 Escribir property test para Property 5 — Reconstructibilidad de la mora vigente": [
@@ -434,6 +784,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283358858
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025231453
       }
     ],
     "22.1 Escribir `test_create_loan`": [
@@ -441,6 +796,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283359116
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025231933
       }
     ],
     "22.2 Escribir `test_register_interest`": [
@@ -448,6 +808,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283359386
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025232237
       }
     ],
     "22.3 Escribir `test_register_mora`": [
@@ -455,6 +820,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283359626
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025232666
       }
     ],
     "22.4 Escribir `test_apply_payment`": [
@@ -462,6 +832,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283359809
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025232905
       }
     ],
     "22.5 Escribir `test_get_loan_state`": [
@@ -469,6 +844,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283360187
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025233344
       }
     ],
     "22.6 Escribir `test_historial_order`": [
@@ -476,6 +856,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283360923
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025233629
       }
     ],
     "22.7 Escribir tests de error": [
@@ -483,6 +868,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283361717
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025233910
       }
     ],
     "23. Checkpoint — verificar todos los tests": [
@@ -490,6 +880,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283363041
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025234260
       }
     ],
     "24.1 Añadir `creditosApi`, `interesesApi`, `morasApi` al archivo existente": [
@@ -497,6 +892,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283363487
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025234572
       }
     ],
     "25.1 Implementar componente de tabla unificada de historial": [
@@ -504,6 +904,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283363941
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025234934
       }
     ],
     "26.1 Implementar slide-over siguiendo el patrón `ClientSlideOver.jsx`": [
@@ -511,6 +916,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283364553
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025235273
       }
     ],
     "27.1 Implementar slide-over siguiendo el patrón `ClientSlideOver.jsx`": [
@@ -518,6 +928,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283364953
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025235560
       }
     ],
     "28.1 Implementar página de detalle de crédito": [
@@ -525,6 +940,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283365283
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025235928
       }
     ],
     "29.1 Añadir columna \"Estado Financiero\" y enlace a detalle": [
@@ -532,6 +952,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283365657
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025236250
       }
     ],
     "30.1 Añadir ruta `/creditos/:id` → `CreditoDetallePage`": [
@@ -539,6 +964,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283366238
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025236537
       }
     ],
     "31.1 Añadir `mcp>=1.0.0` y `httpx>=0.27.0` al archivo existente": [
@@ -546,6 +976,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283366720
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025236889
       }
     ],
     "32.1 Implementar servidor MCP con las seis tools del diseño": [
@@ -553,6 +988,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283367188
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025237310
       }
     ],
     "33.1 Crear archivo de configuración MCP con el contenido exacto del diseño": [
@@ -560,6 +1000,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283367571
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025237870
       }
     ],
     "34. Checkpoint final — verificar MCP": [
@@ -567,6 +1012,11 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283367999
+      },
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025238295
       }
     ],
     "1. Crear script de migración de base de datos": [
@@ -574,6 +1024,20 @@
         "executionId": "baf14e94-70c9-4d45-9fc4-555283a3c61a",
         "chatSessionId": "sess_626ff8db-9e1c-4192-92e3-7a2f806bf2a9",
         "timestamp": 1788283696701
+      }
+    ],
+    "2. Actualizar `app/models.py` con nuevos modelos y enums": [
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025317990
+      }
+    ],
+    "3. Crear módulo `app/services/`": [
+      {
+        "executionId": "a3b39fcd-3ae9-4865-b293-c469e674c4c7",
+        "chatSessionId": "sess_cb2d675d-542c-4f48-b972-948e0dd98945",
+        "timestamp": 1790025338422
       }
     ]
   }

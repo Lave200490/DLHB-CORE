@@ -26,25 +26,25 @@ Implementar el Motor Financiero como capa de servicios que centraliza la lógica
     - Ejecutar `migrate_db.py` dos veces seguidas y confirmar que la segunda ejecución no produce errores ni altera datos
     - _Requisitos: Principio de migración no destructiva_
 
-- [ ] 2. Actualizar `app/models.py` con nuevos modelos y enums
+- [x] 2. Actualizar `app/models.py` con nuevos modelos y enums
   - [x] 2.1 Añadir enum `InterestPeriodUnit` y actualizar `LoanStatus`
     - Añadir `InterestPeriodUnit(str, PyEnum)` con valores `MENSUAL`, `ANUAL`, `POR_PERIODO`
     - Renombrar `LoanStatus.INACTIVO` → `LoanStatus.CANCELADO` (mantener compatibilidad con datos ya migrados)
     - _Requisitos: design.md — Enum InterestPeriodUnit, Enum LoanStatus_
-  - [-] 2.2 Modificar el modelo `Loan`
+  - [x] 2.2 Modificar el modelo `Loan`
     - Añadir columnas: `interest_period_unit` (Enum `InterestPeriodUnit`, default `POR_PERIODO`), `modality_days` (Integer)
     - Añadir relaciones: `interest_records` (→ `InterestRecord`), `mora_records` (→ `MoraRecord`)
     - Conservar todos los campos existentes sin eliminarlos
     - _Requisitos: design.md — Modelo Loan modificado_
-  - [-] 2.3 Crear modelo `InterestRecord`
+  - [x] 2.3 Crear modelo `InterestRecord`
     - Tabla `interest_records` con todos los campos del diseño: `id`, `loan_id`, `monto_interes`, `capital_base`, `tasa_aplicada`, `interest_period_unit`, `fecha_generacion`, `asesor`, `observacion`, `created_at`
     - FK a `loans` con `ondelete="CASCADE"`
     - _Requisitos: design.md — Modelo InterestRecord, Req. 12.4_
-  - [-] 2.4 Crear modelo `MoraRecord`
+  - [x] 2.4 Crear modelo `MoraRecord`
     - Tabla `mora_records` con todos los campos del diseño: `id`, `loan_id`, `monto`, `fecha_evento`, `motivo`, `observacion`, `asesor`, `created_at`
     - FK a `loans` con `ondelete="CASCADE"`
     - _Requisitos: design.md — Modelo MoraRecord, Req. 4.5_
-  - [-] 2.5 Modificar el modelo `Payment`
+  - [x] 2.5 Modificar el modelo `Payment`
     - Añadir columnas: `monto_a_mora`, `monto_a_interes`, `monto_a_capital`, `capital_previo`, `capital_posterior`, `mora_previa`, `mora_posterior`, `observacion`, `asesor`
     - Mantener columnas legacy `principal_payment` e `interest_payment` sin eliminarlas (lectura de datos históricos)
     - _Requisitos: design.md — Modelo Payment modificado, Req. 8.6_
@@ -53,25 +53,25 @@ Implementar el Motor Financiero como capa de servicios que centraliza la lógica
 
 ### FASE 2 — Servicios financieros (core)
 
-- [ ] 3. Crear módulo `app/services/`
-  - [~] 3.1 Crear `app/services/__init__.py` vacío
+- [x] 3. Crear módulo `app/services/`
+  - [x] 3.1 Crear `app/services/__init__.py` vacío
     - Crear el directorio `app/services/` y el archivo `__init__.py`
     - _Requisitos: design.md — Architecture_
 
 - [ ] 4. Implementar `InterestCalculator` en `app/services/financial_engine.py`
-  - [~] 4.1 Crear `app/services/financial_engine.py` e implementar dataclasses de soporte
+  - [x] 4.1 Crear `app/services/financial_engine.py` e implementar dataclasses de soporte
     - Definir `LoanState` y `PaymentResult` como `@dataclass`
     - Importar modelos SQLAlchemy, tipos y Session
     - _Requisitos: design.md — Tipos de datos de soporte_
-  - [~] 4.2 Implementar `InterestCalculator.convert_rate_to_period`
+  - [x] 4.2 Implementar `InterestCalculator.convert_rate_to_period`
     - Reglas de conversión: `POR_PERIODO` → devuelve `rate` directo; `MENSUAL` → `rate × (days/30)`; `ANUAL` → `rate × (days/365)`
     - Lanzar `ValueError` si `rate <= 0` o `periodicidad_dias <= 0`
     - _Requisitos: design.md — Property 1, Req. 2.1, 2.7_
-  - [~] 4.3 Implementar `InterestCalculator.calculate_interest`
+  - [x] 4.3 Implementar `InterestCalculator.calculate_interest`
     - Resultado = `capital_pendiente × convert_rate_to_period(rate, unit, periodicidad_dias)`
     - Resultado siempre `>= 0`
     - _Requisitos: design.md — Property 1, Req. 2.1_
-  - [~] 4.4 Implementar `InterestCalculator.calculate_interes_pendiente`
+  - [-] 4.4 Implementar `InterestCalculator.calculate_interes_pendiente`
     - Consultar suma de `InterestRecord.monto_interes` y suma de `Payment.monto_a_interes` para el `loan_id`
     - Fórmula: `Σ(InterestRecord.monto_interes) − Σ(Payment.monto_a_interes)`
     - Lanzar `ValueError` si el resultado sería negativo (indica corrupción de datos)
@@ -83,7 +83,7 @@ Implementar el Motor Financiero como capa de servicios que centraliza la lógica
     - _Requisitos: design.md — Property 1, Property 4_
 
 - [ ] 5. Implementar `MoraService` en `app/services/financial_engine.py`
-  - [~] 5.1 Implementar `MoraService.calculate_mora_vigente`
+  - [-] 5.1 Implementar `MoraService.calculate_mora_vigente`
     - Fórmula: `Σ(MoraRecord.monto) − Σ(Payment.monto_a_mora)` para el `loan_id`
     - Resultado siempre `>= 0`
     - _Requisitos: design.md — Property 5, Req. 4.5, 8.5_
@@ -92,7 +92,7 @@ Implementar el Motor Financiero como capa de servicios que centraliza la lógica
     - Persistir nuevo `MoraRecord` (append-only, sin update/delete)
     - Lanzar `ValueError` descriptivo en cada validación fallida
     - _Requisitos: design.md — Principio append-only D9, Req. 4_
-  - [~] 5.3 Implementar `MoraService.get_mora_records_fifo`
+  - [-] 5.3 Implementar `MoraService.get_mora_records_fifo`
     - Retornar `MoraRecord` del loan ordenados por `fecha_evento ASC`
     - _Requisitos: design.md — Property 12, Req. 5.6_
   - [ ]* 5.4 Escribir tests unitarios para `MoraService`
